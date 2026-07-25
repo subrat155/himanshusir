@@ -12,7 +12,7 @@ export default function Hero() {
     <section className="h-screen flex flex-col items-center justify-center text-center relative overflow-hidden">
       <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mb-6">
         <motion.img 
-          src="/src/assets/images/hero1.jpg" 
+          src="../assets/images/hero1.jpg" 
           alt="Memory 1" 
           className="w-28 h-28 md:w-32 md:h-32 rounded-2xl object-cover border-4 border-cyan-400 shadow-[0_0_20px_rgba(0,229,255,0.5)] rotate-[-6deg]"
           animate={{ y: [0, -10, 0] }}
@@ -22,7 +22,7 @@ export default function Hero() {
           HAPPY BIRTHDAY
         </h1>
         <motion.img 
-          src="/src/assets/images/hero2.jpg" 
+          src="../assets/images/hero2.jpg" 
           alt="Memory 2" 
           className="w-28 h-28 md:w-32 md:h-32 rounded-2xl object-cover border-4 border-purple-500 shadow-[0_0_20px_rgba(168,85,247,0.5)] rotate-[6deg]"
           animate={{ y: [0, -10, 0] }}
