@@ -33,7 +33,7 @@ export default function MusicPlayer() {
 
   return (
     <div className="fixed top-4 right-4 z-50 flex items-center gap-2 bg-white/10 backdrop-blur-md p-2 rounded-full border border-white/20">
-      <audio ref={audioRef} src="/src/assets/audio/birthday.mp3" loop />
+      <audio ref={audioRef} src="../assets/audio/birthday.mp3" loop />
       <button onClick={togglePlay} className="p-2 hover:bg-white/20 rounded-full">
         {isPlaying ? <Pause size={20} /> : <Play size={20} />}
       </button>
