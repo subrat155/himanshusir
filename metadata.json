@@ -1,0 +1,6 @@
+{
+  "name": "Himanshu Sir's Birthday Celebration",
+  "description": "A premium, modern birthday website for Himanshu Sir, featuring interactive animations, a gallery, and celebration effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
