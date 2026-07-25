@@ -1,13 +1,17 @@
 import { motion, AnimatePresence } from "motion/react";
 import { useState } from "react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
+const imageModules = import.meta.glob(
+  "../assets/images/*.{jpg,jpeg,png}",
+  {
+    eager: true,
+    import: "default",
+  }
+);
 
+const images = Object.values(imageModules);
 export default function Gallery() {
-  const images = Array.from(
-    { length: 12 },
-    (_, i) => `/src/assets/images/img${i + 1}.jpg`
-  );
-
+ 
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   const closeLightbox = () => setSelectedIndex(null);
